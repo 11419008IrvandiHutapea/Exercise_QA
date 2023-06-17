@@ -6,8 +6,14 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Install dependencies
-          command: pip install -r API Automation_Exercise.postman_collection.json
+          name: Import Postman collection
+          command: |
+            mkdir -p api
+            mv API\ Automation_Exercise.postman_collection.json api/collection.json
+      - run:
+          name: Install Newman
+          command: npm install -g newman
       - run:
           name: Run API tests
-          command: pytest API Automation_Exercise.postman_collection.json
+          command: newman run api/collection.json
+
