@@ -1,0 +1,193 @@
+{
+	"info": {
+		"_postman_id": "0d6bcfb1-097f-41d6-8ced-454c84ca54fc",
+		"name": "API Automation_Exercise",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "15547516",
+		"_collection_link": "https://www.postman.com/irvandihutapea/workspace/postmantechexercise/collection/15547516-0d6bcfb1-097f-41d6-8ced-454c84ca54fc?action=share&creator=15547516&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "GET /current?lat={lat}&lon={lon}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.weatherbit.io/v2.0/current?lat=40.730610&lon=-73.935242&key=a533d5c513a7485c8a3dfd1d27a1f4fb",
+					"protocol": "https",
+					"host": [
+						"api",
+						"weatherbit",
+						"io"
+					],
+					"path": [
+						"v2.0",
+						"current"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "40.730610"
+						},
+						{
+							"key": "lon",
+							"value": "-73.935242"
+						},
+						{
+							"key": "key",
+							"value": "a533d5c513a7485c8a3dfd1d27a1f4fb"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET /forecast/3hourly?postal_code={postal_code}",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.weatherbit.io/v2.0/forecast/daily?postal_code=28546&key=a533d5c513a7485c8a3dfd1d27a1f4fb",
+					"protocol": "https",
+					"host": [
+						"api",
+						"weatherbit",
+						"io"
+					],
+					"path": [
+						"v2.0",
+						"forecast",
+						"daily"
+					],
+					"query": [
+						{
+							"key": "postal_code",
+							"value": "28546"
+						},
+						{
+							"key": "key",
+							"value": "a533d5c513a7485c8a3dfd1d27a1f4fb"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "GET /forecast/3hourly?postal_code={postal_code}",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://api.weatherbit.io/v2.0/forecast/daily?postal_code=28546&key=a533d5c513a7485c8a3dfd1d27a1f4fb",
+							"protocol": "https",
+							"host": [
+								"api",
+								"weatherbit",
+								"io"
+							],
+							"path": [
+								"v2.0",
+								"forecast",
+								"daily"
+							],
+							"query": [
+								{
+									"key": "postal_code",
+									"value": "28546"
+								},
+								{
+									"key": "key",
+									"value": "a533d5c513a7485c8a3dfd1d27a1f4fb"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "server",
+							"value": "openresty/1.19.3.1"
+						},
+						{
+							"key": "date",
+							"value": "Fri, 16 Jun 2023 07:04:57 GMT"
+						},
+						{
+							"key": "content-type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "transfer-encoding",
+							"value": "chunked"
+						},
+						{
+							"key": "keep-alive",
+							"value": "timeout=5"
+						},
+						{
+							"key": "x-ratelimit-limit",
+							"value": "55"
+						},
+						{
+							"key": "x-ratelimit-remaining",
+							"value": "30"
+						},
+						{
+							"key": "x-ratelimit-reset",
+							"value": "1686960000"
+						},
+						{
+							"key": "x-proxy-cache",
+							"value": "HIT"
+						},
+						{
+							"key": "access-control-allow-origin",
+							"value": "*"
+						},
+						{
+							"key": "access-control-allow-methods",
+							"value": "GET, OPTIONS, POST"
+						},
+						{
+							"key": "access-control-allow-headers",
+							"value": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range"
+						},
+						{
+							"key": "access-control-expose-headers",
+							"value": "DNT,X-CustomHeader,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Content-Range,Range"
+						},
+						{
+							"key": "content-encoding",
+							"value": "gzip"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"city_name\": \"Onslow\",\n    \"country_code\": \"US\",\n    \"data\": [\n        {\n            \"app_max_temp\": 32.6,\n            \"app_min_temp\": 19.8,\n            \"clouds\": 22,\n            \"clouds_hi\": 32,\n            \"clouds_low\": 11,\n            \"clouds_mid\": 9,\n            \"datetime\": \"2023-06-16\",\n            \"dewpt\": 20.6,\n            \"high_temp\": 30.5,\n            \"low_temp\": 17,\n            \"max_dhi\": null,\n            \"max_temp\": 30.5,\n            \"min_temp\": 18.9,\n            \"moon_phase\": 0.00158481,\n            \"moon_phase_lunation\": 0.96,\n            \"moonrise_ts\": 1686903979,\n            \"moonset_ts\": 1686961565,\n            \"ozone\": 334.6,\n            \"pop\": 20,\n            \"precip\": 0.69879913,\n            \"pres\": 1005.9,\n            \"rh\": 81,\n            \"slp\": 1006.9,\n            \"snow\": 0,\n            \"snow_depth\": 0,\n            \"sunrise_ts\": 1686909323,\n            \"sunset_ts\": 1686961569,\n            \"temp\": 24.4,\n            \"ts\": 1686888060,\n            \"uv\": 9.1,\n            \"valid_date\": \"2023-06-16\",\n            \"vis\": 22.236,\n            \"weather\": {\n                \"description\": \"Scattered clouds\",\n                \"code\": 802,\n                \"icon\": \"c02d\"\n            },\n            \"wind_cdir\": \"SW\",\n            \"wind_cdir_full\": \"southwest\",\n            \"wind_dir\": 229,\n            \"wind_gust_spd\": 5.1,\n            \"wind_spd\": 3.4\n        },\n        {\n            \"app_max_temp\": 29.7,\n            \"app_min_temp\": 17.8,\n            \"clouds\": 11,\n            \"clouds_hi\": 2,\n            \"clouds_low\": 10,\n            \"clouds_mid\": 7,\n            \"datetime\": \"2023-06-17\",\n            \"dewpt\": 16.7,\n            \"high_temp\": 30,\n            \"low_temp\": 17.4,\n            \"max_dhi\": null,\n            \"max_temp\": 30,\n            \"min_temp\": 17,\n            \"moon_phase\": 0.00158481,\n            \"moon_phase_lunation\": 0.99,\n            \"moonrise_ts\": 1686992887,\n            \"moonset_ts\": 1687047965,\n            \"ozone\": 334.8,\n            \"pop\": 10,\n            \"precip\": 0.29580688,\n            \"pres\": 1007.5,\n            \"rh\": 67,\n            \"slp\": 1008.4,\n            \"snow\": 0,\n            \"snow_depth\": 0,\n            \"sunrise_ts\": 1686995729,\n            \"sunset_ts\": 1687047988,\n            \"temp\": 23.8,\n            \"ts\": 1686974460,\n            \"uv\": 10.9,\n            \"valid_date\": \"2023-06-17\",\n            \"vis\": 16.867,\n            \"weather\": {\n                \"description\": \"Few clouds\",\n                \"code\": 801,\n                \"icon\": \"c02d\"\n            },\n            \"wind_cdir\": \"WNW\",\n            \"wind_cdir_full\": \"west-northwest\",\n            \"wind_dir\": 283,\n            \"wind_gust_spd\": 5.3,\n            \"wind_spd\": 3.4\n        },\n        {\n            \"app_max_temp\": 31,\n            \"app_min_temp\": 17.9,\n            \"clouds\": 10,\n            \"clouds_hi\": 18,\n            \"clouds_low\": 12,\n            \"clouds_mid\": 0,\n            \"datetime\": \"2023-06-18\",\n            \"dewpt\": 17.8,\n            \"high_temp\": 31.2,\n            \"low_temp\": 18.7,\n            \"max_dhi\": null,\n            \"max_temp\": 31.2,\n            \"min_temp\": 17.4,\n            \"moon_phase\": 0.00891864,\n            \"moon_phase_lunation\": 0.03,\n            \"moonrise_ts\": 1687082168,\n            \"moonset_ts\": 1687137705,\n            \"ozone\": 324.8,\n            \"pop\": 0,\n            \"precip\": 0,\n            \"pres\": 1010.2,\n            \"rh\": 69,\n            \"slp\": 1011.2,\n            \"snow\": 0,\n            \"snow_depth\": 0,\n            \"sunrise_ts\": 1687082136,\n            \"sunset_ts\": 1687134406,\n            \"temp\": 24.5,\n            \"ts\": 1687060860,\n            \"uv\": 10.1,\n            \"valid_date\": \"2023-06-18\",\n            \"vis\": 24.128,\n            \"weather\": {\n                \"description\": \"Few clouds\",\n                \"code\": 801,\n                \"icon\": \"c02d\"\n            },\n            \"wind_cdir\": \"SSW\",\n            \"wind_cdir_full\": \"south-southwest\",\n            \"wind_dir\": 212,\n            \"wind_gust_spd\": 4.9,\n            \"wind_spd\": 3.3\n        },\n        {\n            \"app_max_temp\": 30.5,\n            \"app_min_temp\": 19.9,\n            \"clouds\": 48,\n            \"clouds_hi\": 74,\n            \"clouds_low\": 1,\n            \"clouds_mid\": 40,\n            \"datetime\": \"2023-06-19\",\n            \"dewpt\": 19.7,\n            \"high_temp\": 30.2,\n            \"low_temp\": 20.4,\n            \"max_dhi\": null,\n            \"max_temp\": 30.2,\n            \"min_temp\": 18.7,\n            \"moon_phase\": 0.0365695,\n            \"moon_phase_lunation\": 0.06,\n            \"moonrise_ts\": 1687171789,\n            \"moonset_ts\": 1687227026,\n            \"ozone\": 308.9,\n            \"pop\": 50,\n            \"precip\": 3.1,\n            \"pres\": 1012.1,\n            \"rh\": 78,\n            \"slp\": 1013,\n            \"snow\": 0,\n            \"snow_depth\": 0,\n            \"sunrise_ts\": 1687168546,\n            \"sunset_ts\": 1687220822,\n            \"temp\": 24.1,\n            \"ts\": 1687147260,\n            \"uv\": 6.8,\n            \"valid_date\": \"2023-06-19\",\n            \"vis\": 24.128,\n            \"weather\": {\n                \"description\": \"Thunderstorm with rain\",\n                \"code\": 201,\n                \"icon\": \"t02d\"\n            },\n            \"wind_cdir\": \"SE\",\n            \"wind_cdir_full\": \"southeast\",\n            \"wind_dir\": 143,\n            \"wind_gust_spd\": 6.3,\n            \"wind_spd\": 4.1\n        },\n        {\n            \"app_max_temp\": 26.9,\n            \"app_min_temp\": 21.6,\n            \"clouds\": 77,\n            \"clouds_hi\": 92,\n            \"clouds_low\": 71,\n            \"clouds_mid\": 96,\n            \"datetime\": \"2023-06-20\",\n            \"dewpt\": 20.5,\n            \"high_temp\": 27.4,\n            \"low_temp\": 19.8,\n            \"max_dhi\": null,\n            \"max_temp\": 27.4,\n            \"min_temp\": 20.4,\n            \"moon_phase\": 0.0822935,\n            \"moon_phase_lunation\": 0.09,\n            \"moonrise_ts\": 1687261644,\n            \"moonset_ts\": 1687315915,\n            \"ozone\": 306.4,\n            \"pop\": 80,\n            \"precip\": 13.56,\n            \"pres\": 1011.6,\n            \"rh\": 85,\n            \"slp\": 1012.5,\n            \"snow\": 0,\n            \"snow_depth\": 0,\n            \"sunrise_ts\": 1687254956,\n            \"sunset_ts\": 1687307237,\n            \"temp\": 23.2,\n            \"ts\": 1687233660,\n            \"uv\": 5,\n            \"valid_date\": \"2023-06-20\",\n            \"vis\": 23.196,\n            \"weather\": {\n                \"description\": \"Thunderstorm with rain\",\n                \"code\": 201,\n                \"icon\": \"t02d\"\n            },\n            \"wind_cdir\": \"ENE\",\n            \"wind_cdir_full\": \"east-northeast\",\n            \"wind_dir\": 77,\n            \"wind_gust_spd\": 8.4,\n            \"wind_spd\": 5.8\n        },\n        {\n            \"app_max_temp\": 22,\n            \"app_min_temp\": 18.1,\n            \"clouds\": 94,\n            \"clouds_hi\": 95,\n            \"clouds_low\": 100,\n            \"clouds_mid\": 98,\n            \"datetime\": \"2023-06-21\",\n            \"dewpt\": 18.6,\n            \"high_temp\": 21.1,\n            \"low_temp\": 17.9,\n            \"max_dhi\": null,\n            \"max_temp\": 21.8,\n            \"min_temp\": 18.1,\n            \"moon_phase\": 0.143476,\n            \"moon_phase_lunation\": 0.13,\n            \"moonrise_ts\": 1687351601,\n            \"moonset_ts\": 1687404421,\n            \"ozone\": 303.4,\n            \"pop\": 95,\n            \"precip\": 53.87,\n            \"pres\": 1008.9,\n            \"rh\": 95,\n            \"slp\": 1009.8,\n            \"snow\": 0,\n            \"snow_depth\": 0,\n            \"sunrise_ts\": 1687341368,\n            \"sunset_ts\": 1687393650,\n            \"temp\": 19.3,\n            \"ts\": 1687320060,\n            \"uv\": 11.2,\n            \"valid_date\": \"2023-06-21\",\n            \"vis\": 10.933,\n            \"weather\": {\n                \"description\": \"Thunderstorm with heavy rain\",\n                \"code\": 202,\n                \"icon\": \"t03d\"\n            },\n            \"wind_cdir\": \"ENE\",\n            \"wind_cdir_full\": \"east-northeast\",\n            \"wind_dir\": 71,\n            \"wind_gust_spd\": 13.2,\n            \"wind_spd\": 6\n        },\n        {\n            \"app_max_temp\": 23.1,\n            \"app_min_temp\": 17.7,\n            \"clouds\": 73,\n            \"clouds_hi\": 74,\n            \"clouds_low\": 67,\n            \"clouds_mid\": 39,\n            \"datetime\": \"2023-06-22\",\n            \"dewpt\": 15.6,\n            \"high_temp\": 23.1,\n            \"low_temp\": 17.1,\n            \"max_dhi\": null,\n            \"max_temp\": 23.1,\n            \"min_temp\": 17.7,\n            \"moon_phase\": 0.217419,\n            \"moon_phase_lunation\": 0.16,\n            \"moonrise_ts\": 1687441552,\n            \"moonset_ts\": 1687492628,\n            \"ozone\": 313.6,\n            \"pop\": 20,\n            \"precip\": 0.0625,\n            \"pres\": 1010.9,\n            \"rh\": 78,\n            \"slp\": 1011.8,\n            \"snow\": 0,\n            \"snow_depth\": 0,\n            \"sunrise_ts\": 1687427782,\n            \"sunset_ts\": 1687480062,\n            \"temp\": 19.6,\n            \"ts\": 1687406460,\n            \"uv\": 11.2,\n            \"valid_date\": \"2023-06-22\",\n            \"vis\": 24.128,\n            \"weather\": {\n                \"description\": \"Overcast clouds\",\n                \"code\": 804,\n                \"icon\": \"c04d\"\n            },\n            \"wind_cdir\": \"SSW\",\n            \"wind_cdir_full\": \"south-southwest\",\n            \"wind_dir\": 193,\n            \"wind_gust_spd\": 6.5,\n            \"wind_spd\": 3.2\n        }\n    ],\n    \"lat\": \"34.774\",\n    \"lon\": \"-77.3781\",\n    \"state_code\": \"NC\",\n    \"timezone\": \"America/New_York\"\n}"
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
