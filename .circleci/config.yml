@@ -9,7 +9,7 @@ jobs:
           name: Install Newman
           command: |
             curl -L https://npmjs.org/install.sh | sudo sh
-            install -g newman
+            npm install -g newman --force
       - run:
           name: Run API tests
           command: |
