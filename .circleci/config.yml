@@ -10,4 +10,4 @@ jobs:
           command: pip install -r API Automation_Exercise.postman_collection.json
       - run:
           name: Run API tests
-          command: pytest
+          command: pytest API Automation_Exercise.postman_collection.json
