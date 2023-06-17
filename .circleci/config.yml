@@ -9,10 +9,10 @@ jobs:
           name: Import Postman collection
           command: |
             mkdir -p api
-            mv API\ Automation_Exercise.postman_collection.json api/collection.json
+            mv API\ Automation_Exercise.postman_collection.json
       - run:
           name: Install Newman
           command: npm install -g newman
       - run:
           name: Run API tests
-          command: newman run api/collection.json
+          command: newman run Automation_Exercise.postman_collection.json
