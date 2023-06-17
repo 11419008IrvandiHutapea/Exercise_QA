@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          command: pip install -r requirements.txt
+          command: pip install -r API Automation_Exercise.postman_collection.json
       - run:
           name: Run API tests
-          command: pytest API Automation_Exercise.postman_collection.json
+          command: pytest
