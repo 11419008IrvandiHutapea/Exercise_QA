@@ -1,13 +1,12 @@
 version: 2.1
 orbs:
-  newman: postman/newman@1.3.5
-  jobs:
-   workflows:
-    build:
-      docker:
-        - image: circleci/python:3.9
-      steps:
-        - checkout
-        - newman/newman-run:
-            collection: main/"API Automation_Exercise.postman_collection.json"
- 
+  newman: postman/newman@1.4.0
+
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.9
+    steps:
+      - checkout
+      - newman/run:
+          collection: main/"API Automation_Exercise.postman_collection.json"
