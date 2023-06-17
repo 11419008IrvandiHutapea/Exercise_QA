@@ -1,12 +1,18 @@
 version: 2.1
-orbs:
-  newman: postman/newman@1.4.0
-
 jobs:
   build:
     docker:
       - image: circleci/python:3.9
     steps:
       - checkout
-      - newman/run:
-          collection: API Automation_Exercise.postman_collection.json
+      - run:
+          name: Import Postman collection
+          command: |
+            mkdir -p api
+            mv API\ Automation_Exercise.postman_collection.json api/collection.json
+      - run:
+          name: Install Newman
+          command: npm install -g newman
+      - run:
+          name: Run API tests
+          command: newman run api/collection.json
