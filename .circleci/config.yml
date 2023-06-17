@@ -9,4 +9,4 @@ jobs:
     steps:
       - checkout
       - newman/run:
-          collection: main/"API Automation_Exercise.postman_collection.json"
+          collection: API Automation_Exercise.postman_collection.json
