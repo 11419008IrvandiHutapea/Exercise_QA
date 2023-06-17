@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_Find a Service NSW location</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>90ef6dc8-a382-48f9-adbc-323750f0238c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d28a923-06c6-49e7-997e-e7a84905b1bb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8d28a923-06c6-49e7-997e-e7a84905b1bb</id>
+      <masked>false</masked>
+      <name>Inputan</name>
+   </variable>
+</TestCaseEntity>

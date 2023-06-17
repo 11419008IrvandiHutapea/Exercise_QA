@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Data_FindLocation" time="39.334" tests="3" failures="0" errors="0">
+   <testsuite name="Data_FindLocation" tests="3" failures="0" errors="0" time="39.334" skipped="0" timestamp="2023-06-17 18:16:37" hostname="Irvandi_Hutapea - 172.27.41.230" id="Test Suites/Data_FindLocation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Irvandi_Hutapea\\Katalon Studio\\UI Automation\\Reports\\20230617_181612\\Data_FindLocation\\20230617_181612"/>
+         <property name="logFiles" value="C:\\Users\\Irvandi_Hutapea\\Katalon Studio\\UI Automation\\Reports\\20230617_181612\\Data_FindLocation\\20230617_181612\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Irvandi_Hutapea - 172.27.41.230"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 114.0.0.0"/>
+         <property name="hostAddress" value="172.27.41.230"/>
+         <property name="sessionId" value="5afa865e14300663a4123388061b7873"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Find a Service NSW location" time="16.739" classname="Test Cases/TC_Find a Service NSW location" status="PASSED">
+         <system-out><![CDATA[2023-06-17 18:16:37 - [TEST_CASE][PASSED] - Test Cases/TC_Find a Service NSW location: Test Cases/TC_Find a Service NSW location
+
+2023-06-17 18:16:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-17 18:16:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-17 18:16:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-17 18:16:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-17 18:16:44 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/ "): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2023-06-17 18:16:48 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2023-06-17 18:16:48 - [TEST_STEP][PASSED] - click(findTestObject("Find a Service NSW location  Service NSW/a_Find locations")): Object: 'Object Repository/Find a Service NSW location  Service NSW/a_Find locations' is clicked on
+
+2023-06-17 18:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Find a Service NSW location  Service NSW/a_Find locations' is clicked on
+
+2023-06-17 18:16:51 - [TEST_STEP][PASSED] - setText(findTestObject("Find a Service NSW location  Service NSW/input_Search by suburb, postcode or current location_q"), "Sydney Domestic Airport 2020"): Text 'Sydney Domestic Airport 2020' is set on object 'Object Repository/Find a Service NSW location  Service NSW/input_Search by suburb, postcode or current location_q'
+
+2023-06-17 18:16:53 - [MESSAGE][PASSED] - Text 'Sydney Domestic Airport 2020' is set on object 'Object Repository/Find a Service NSW location  Service NSW/input_Search by suburb, postcode or current location_q'
+
+2023-06-17 18:16:53 - [TEST_STEP][PASSED] - click(findTestObject("Find a Service NSW location  Service NSW/button_Search by suburb, postcode or current location_button button--primary button--xxlarge")): Object: 'Object Repository/Find a Service NSW location  Service NSW/button_Search by suburb, postcode or current location_button button--primary button--xxlarge' is clicked on
+
+2023-06-17 18:16:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Find a Service NSW location  Service NSW/button_Search by suburb, postcode or current location_button button--primary button--xxlarge' is clicked on
+
+2023-06-17 18:16:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-17 18:16:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Find a Service NSW location" time="10.203" classname="Test Cases/TC_Find a Service NSW location" status="PASSED">
+         <system-out><![CDATA[2023-06-17 18:16:54 - [TEST_CASE][PASSED] - Test Cases/TC_Find a Service NSW location: Test Cases/TC_Find a Service NSW location
+
+2023-06-17 18:16:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-17 18:16:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-17 18:16:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-17 18:16:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-17 18:16:56 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/ "): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2023-06-17 18:16:58 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2023-06-17 18:16:58 - [TEST_STEP][PASSED] - click(findTestObject("Find a Service NSW location  Service NSW/a_Find locations")): Object: 'Object Repository/Find a Service NSW location  Service NSW/a_Find locations' is clicked on
+
+2023-06-17 18:17:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Find a Service NSW location  Service NSW/a_Find locations' is clicked on
+
+2023-06-17 18:17:02 - [TEST_STEP][PASSED] - setText(findTestObject("Find a Service NSW location  Service NSW/input_Search by suburb, postcode or current location_q"), "Sydney Domestic Airport 2020"): Text 'Sydney Domestic Airport 2020' is set on object 'Object Repository/Find a Service NSW location  Service NSW/input_Search by suburb, postcode or current location_q'
+
+2023-06-17 18:17:03 - [MESSAGE][PASSED] - Text 'Sydney Domestic Airport 2020' is set on object 'Object Repository/Find a Service NSW location  Service NSW/input_Search by suburb, postcode or current location_q'
+
+2023-06-17 18:17:03 - [TEST_STEP][PASSED] - click(findTestObject("Find a Service NSW location  Service NSW/button_Search by suburb, postcode or current location_button button--primary button--xxlarge")): Object: 'Object Repository/Find a Service NSW location  Service NSW/button_Search by suburb, postcode or current location_button button--primary button--xxlarge' is clicked on
+
+2023-06-17 18:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Find a Service NSW location  Service NSW/button_Search by suburb, postcode or current location_button button--primary button--xxlarge' is clicked on
+
+2023-06-17 18:17:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-17 18:17:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Find a Service NSW location" time="11.659" classname="Test Cases/TC_Find a Service NSW location" status="PASSED">
+         <system-out><![CDATA[2023-06-17 18:17:04 - [TEST_CASE][PASSED] - Test Cases/TC_Find a Service NSW location: Test Cases/TC_Find a Service NSW location
+
+2023-06-17 18:17:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-17 18:17:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-06-17 18:17:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-17 18:17:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-17 18:17:06 - [TEST_STEP][PASSED] - navigateToUrl("https://www.service.nsw.gov.au/ "): Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2023-06-17 18:17:10 - [MESSAGE][PASSED] - Navigate to 'https://www.service.nsw.gov.au/' successfully
+
+2023-06-17 18:17:10 - [TEST_STEP][PASSED] - click(findTestObject("Find a Service NSW location  Service NSW/a_Find locations")): Object: 'Object Repository/Find a Service NSW location  Service NSW/a_Find locations' is clicked on
+
+2023-06-17 18:17:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Find a Service NSW location  Service NSW/a_Find locations' is clicked on
+
+2023-06-17 18:17:14 - [TEST_STEP][PASSED] - setText(findTestObject("Find a Service NSW location  Service NSW/input_Search by suburb, postcode or current location_q"), "Sydney Domestic Airport 2020"): Text 'Sydney Domestic Airport 2020' is set on object 'Object Repository/Find a Service NSW location  Service NSW/input_Search by suburb, postcode or current location_q'
+
+2023-06-17 18:17:15 - [MESSAGE][PASSED] - Text 'Sydney Domestic Airport 2020' is set on object 'Object Repository/Find a Service NSW location  Service NSW/input_Search by suburb, postcode or current location_q'
+
+2023-06-17 18:17:15 - [TEST_STEP][PASSED] - click(findTestObject("Find a Service NSW location  Service NSW/button_Search by suburb, postcode or current location_button button--primary button--xxlarge")): Object: 'Object Repository/Find a Service NSW location  Service NSW/button_Search by suburb, postcode or current location_button button--primary button--xxlarge' is clicked on
+
+2023-06-17 18:17:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Find a Service NSW location  Service NSW/button_Search by suburb, postcode or current location_button button--primary button--xxlarge' is clicked on
+
+2023-06-17 18:17:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-17 18:17:16 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-17 18:16:37 - [TEST_SUITE][PASSED] - Data_FindLocation: Test Cases/TC_Find a Service NSW location]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

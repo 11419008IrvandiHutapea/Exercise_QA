@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Data_FindLocation,Chrome 114.0.0.0,,,2023-06-17 18:16:37,2023-06-17 18:17:16,39.334s,PASSED
+,,,,,,,
+Test Cases/TC_Find a Service NSW location,Chrome 114.0.0.0,,,2023-06-17 18:16:37,2023-06-17 18:16:54,16.739s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-17 18:16:38,2023-06-17 18:16:44,5.518s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/ "")",Chrome 114.0.0.0,,,2023-06-17 18:16:44,2023-06-17 18:16:48,4.296s,PASSED
+"click(findTestObject(""Find a Service NSW location  Service NSW/a_Find locations""))",Chrome 114.0.0.0,,,2023-06-17 18:16:48,2023-06-17 18:16:51,2.963s,PASSED
+"setText(findTestObject(""Find a Service NSW location  Service NSW/input_Search by suburb, postcode or current location_q""), ""Sydney Domestic Airport 2020"")",Chrome 114.0.0.0,,,2023-06-17 18:16:51,2023-06-17 18:16:53,1.783s,PASSED
+"click(findTestObject(""Find a Service NSW location  Service NSW/button_Search by suburb, postcode or current location_button button--primary button--xxlarge""))",Chrome 114.0.0.0,,,2023-06-17 18:16:53,2023-06-17 18:16:53,0.554s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-17 18:16:53,2023-06-17 18:16:54,0.818s,PASSED
+,,,,,,,
+Test Cases/TC_Find a Service NSW location,Chrome 114.0.0.0,,,2023-06-17 18:16:54,2023-06-17 18:17:04,10.203s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-17 18:16:54,2023-06-17 18:16:56,1.439s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/ "")",Chrome 114.0.0.0,,,2023-06-17 18:16:56,2023-06-17 18:16:58,2.696s,PASSED
+"click(findTestObject(""Find a Service NSW location  Service NSW/a_Find locations""))",Chrome 114.0.0.0,,,2023-06-17 18:16:58,2023-06-17 18:17:02,3.785s,PASSED
+"setText(findTestObject(""Find a Service NSW location  Service NSW/input_Search by suburb, postcode or current location_q""), ""Sydney Domestic Airport 2020"")",Chrome 114.0.0.0,,,2023-06-17 18:17:02,2023-06-17 18:17:03,1.066s,PASSED
+"click(findTestObject(""Find a Service NSW location  Service NSW/button_Search by suburb, postcode or current location_button button--primary button--xxlarge""))",Chrome 114.0.0.0,,,2023-06-17 18:17:03,2023-06-17 18:17:04,0.521s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-17 18:17:04,2023-06-17 18:17:04,0.681s,PASSED
+,,,,,,,
+Test Cases/TC_Find a Service NSW location,Chrome 114.0.0.0,,,2023-06-17 18:17:04,2023-06-17 18:17:16,11.659s,PASSED
+"openBrowser("""")",Chrome 114.0.0.0,,,2023-06-17 18:17:04,2023-06-17 18:17:06,1.480s,PASSED
+"navigateToUrl(""https://www.service.nsw.gov.au/ "")",Chrome 114.0.0.0,,,2023-06-17 18:17:06,2023-06-17 18:17:10,3.995s,PASSED
+"click(findTestObject(""Find a Service NSW location  Service NSW/a_Find locations""))",Chrome 114.0.0.0,,,2023-06-17 18:17:10,2023-06-17 18:17:14,3.847s,PASSED
+"setText(findTestObject(""Find a Service NSW location  Service NSW/input_Search by suburb, postcode or current location_q""), ""Sydney Domestic Airport 2020"")",Chrome 114.0.0.0,,,2023-06-17 18:17:14,2023-06-17 18:17:15,1.129s,PASSED
+"click(findTestObject(""Find a Service NSW location  Service NSW/button_Search by suburb, postcode or current location_button button--primary button--xxlarge""))",Chrome 114.0.0.0,,,2023-06-17 18:17:15,2023-06-17 18:17:15,0.492s,PASSED
+closeBrowser(),Chrome 114.0.0.0,,,2023-06-17 18:17:15,2023-06-17 18:17:16,0.703s,PASSED
