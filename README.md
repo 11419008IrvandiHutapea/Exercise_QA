@@ -1,4 +1,14 @@
-UI Automation 
+UI Automation Dengan Selenium
+Build
+1. Install Selenium webdriver pada folder yang menjadi tempat penyimpanan project kita. Maka akan sesuai dengan tampila berikut :
+![image](https://github.com/11419008IrvandiHutapea/Exercise_QA/assets/71772434/74c87166-83cb-4ed5-bdf9-2706f6bce61c)
+3. Buka folder tersebut pada Visual Studio Code
+4. Buat Testcase dengan cara klik kanan lalu new File
+ -  TC_Search_01.js, Dimana testcase ini bertujuan untuk menguji fitur search berdasarkan Location dan kode suburb
+ -  TC_Search_02.js, Test ini bertujuan untuk menguji fitur search
+5. Selanjutnya buka terminal untuk menjalankan
+6. Ketik perintah "Node'Nama Testcase'"
+UI Automation Dengan Katalon
  Buid And Run
  1. Membuat Project Baru:
   A. Buka Katalon Studio dan buat proyek baru.
