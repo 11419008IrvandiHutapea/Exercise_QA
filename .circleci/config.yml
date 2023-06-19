@@ -13,4 +13,4 @@ jobs:
       - run:
           name: Run API tests
           command: |
-            newman run UI Automation With Selenium/TC_Search_01.js
+            newman run "UI Automation With Selenium/TC_Search_01.js"
